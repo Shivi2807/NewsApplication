@@ -91,26 +91,74 @@
 			children = (
 				0F7155262742C77B00765DDA /* AppDelegate.swift */,
 				0F7155282742C77B00765DDA /* SceneDelegate.swift */,
-				0F71552A2742C77B00765DDA /* NewsViewController.swift */,
-				0F71552C2742C77B00765DDA /* Main.storyboard */,
+				0F88B3A62748E3C200977627 /* Controllers */,
+				0F88B3A82748E3EE00977627 /* View */,
 				0F71552F2742C77D00765DDA /* Assets.xcassets */,
-				0F7155312742C77D00765DDA /* LaunchScreen.storyboard */,
 				0F7155342742C77D00765DDA /* Info.plist */,
-				0F71553A2742C80700765DDA /* APIManager.swift */,
-				0F71553C2742C89400765DDA /* NewsTableViewCell.swift */,
-				0F71553D2742C89400765DDA /* NewsTableViewCell.xib */,
-				0F7155402742C9E800765DDA /* NewsAPIResponse.swift */,
-				0F7155422742D0E900765DDA /* NewsArticle.swift */,
-				0FB77363274755C300077DC8 /* LoginViewController.swift */,
-				0F2FF00027478CF100A2C9F1 /* NewsDetailVC.swift */,
-				0F2FF0022747991A00A2C9F1 /* CustomView.swift */,
-				0F88B39B2748CCA400977627 /* StringExtension.swift */,
-				0F88B39D2748CDB500977627 /* ValidateRequestModel.swift */,
-				0F88B39F2748CDEA00977627 /* LoginValidation.swift */,
-				0F88B3A12748CE0700977627 /* ValidationResultModel.swift */,
-				0F88B3A32748D0C600977627 /* LoginApIResponse.swift */,
+				0F88B3A92748E40500977627 /* Utilities */,
+				0F88B3AA2748E41200977627 /* Extensions */,
+				0F88B3A52748E36400977627 /* Models */,
 			);
 			path = FabHotelsAssignment;
+			sourceTree = "<group>";
+		};
+		0F88B3A52748E36400977627 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F88B39F2748CDEA00977627 /* LoginValidation.swift */,
+				0F7155422742D0E900765DDA /* NewsArticle.swift */,
+				0F88B39D2748CDB500977627 /* ValidateRequestModel.swift */,
+				0F88B3A12748CE0700977627 /* ValidationResultModel.swift */,
+				0F88B3A32748D0C600977627 /* LoginApIResponse.swift */,
+				0F7155402742C9E800765DDA /* NewsAPIResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F88B3A62748E3C200977627 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FB77363274755C300077DC8 /* LoginViewController.swift */,
+				0F71552A2742C77B00765DDA /* NewsViewController.swift */,
+				0F2FF00027478CF100A2C9F1 /* NewsDetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F88B3A72748E3E300977627 /* NewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				0F71553C2742C89400765DDA /* NewsTableViewCell.swift */,
+				0F71553D2742C89400765DDA /* NewsTableViewCell.xib */,
+			);
+			path = NewsCell;
+			sourceTree = "<group>";
+		};
+		0F88B3A82748E3EE00977627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F71552C2742C77B00765DDA /* Main.storyboard */,
+				0F7155312742C77D00765DDA /* LaunchScreen.storyboard */,
+				0F88B3A72748E3E300977627 /* NewsCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F88B3A92748E40500977627 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F71553A2742C80700765DDA /* APIManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0F88B3AA2748E41200977627 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F2FF0022747991A00A2C9F1 /* CustomView.swift */,
+				0F88B39B2748CCA400977627 /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		683BBF617EFFA3242DAA2E4E /* Frameworks */ = {
